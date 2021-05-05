@@ -19,7 +19,7 @@ load("@rules_python//python:pip.bzl", "pip_install")
 pip_install(
     name = "test",
     requirements = "//test:requirements.txt",
-    )
+)
 
 ####################################### MYPY SUPPORT ###############################################
 mypy_integration_version = "0.1.0" # latest @ November 15th 2020
